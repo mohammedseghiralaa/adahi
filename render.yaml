@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: adahi-bot
+    env: node
+    buildCommand: npm install && npx playwright install chromium --with-deps
+    startCommand: node index.js

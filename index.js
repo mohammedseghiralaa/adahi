@@ -39,6 +39,6 @@ async function check() {
 }
 
 // يفحص كل 60 ثانية
-setInterval(check, 60000);
+setInterval(check, 30000);
 
 check();
